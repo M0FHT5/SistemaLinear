@@ -6,4 +6,5 @@ O objetivo do programa é encontrar o conjunto solução de um determinado siste
    1. Escreve-se a matriz aumentada do sistema.
    2. Usa-se operações elementares com as linhas para reduzir a matriz aumentada à forma escalonada por linhas.
    3. Usando substituição de trás pra frente, resolve-se o sistema correspondente à matriz linha linha-reduzida de (2).
+   
 O conjunto solução encontrado em (3) é o conjunto solução do sistema de equações lineares dado.
