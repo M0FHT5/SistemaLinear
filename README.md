@@ -1,6 +1,16 @@
 # SistemaLinear
 Sistema de Equações Lineares - System of Linear Equations
 
+Link para download: 
+https://github.com/M0FHT5/SistemaLinear.git
+---
+## Autor
+Wellington Santos
+
+Todos os bugs e fixes podem ser enviados para wss.m0fht5@gmail.com
+
+Bubs/Fixes reportados serão submetidos a correção.
+
 ## Descrição
 O objetivo do programa é encontrar o conjunto solução de um determinado sistema de equações lineares, formado por três equações compostas por três coeficientes, três variáveis e um termo independente cada. O método utilizado para a resolução do sistema, é o método de eliminação de Gauss, que consiste em seguir os seguintes passos:
 ```
