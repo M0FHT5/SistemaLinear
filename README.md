@@ -84,7 +84,7 @@ O método `imprimeMatriz()` imprimirá no console do framework eclipse as respec
 
 ![matrizsolucaounica](https://user-images.githubusercontent.com/34487807/33921052-9220672e-dfa8-11e7-84e1-ad811e21c9f3.png)
 
-Note que a última matriz representa a forma mais simplificada do processo de escalonamento, e portanto nos fornece a solução final do sistema. Geometricamente representa retas concorrentes, onde há um ponto (x1, y1, z1) de intersecção que é solução única do sistema.
+Note que a última matriz representa a forma mais simplificada do processo de escalonamento, e portanto nos fornece a solução final do sistema. Geometricamente representam retas concorrentes, onde há um ponto (x1, y2, z3) de intersecção que é solução única do sistema.
 
 No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que o sistema admite infinitas soluções. Portanto o sistema é **possivel** e **indeterminado**.
 
@@ -106,7 +106,7 @@ As matrizes geradas foram as seguintes:
 
 Não há solução matemática para a equação assinalada na última matriz. Geometricamente representam retas paralelas, onde não há nenhum ponto solução do sistema.
 
-O programa admite números reais, de quantidades diferentes de casas decimais na entrada de valores. Porem o resultado final será truncado, limitando-o a quatro casas decimais após a vírgula. O exemplo a seguir ilustra essa possibilidade:
+O programa admite números reais, de quantidades diferentes de casas decimais na entrada de valores. Porém o resultado final será truncado, limitando-o a quatro casas decimais após a vírgula. O exemplo a seguir ilustra essa possibilidade:
 
 ![tela5numerosfracionais](https://user-images.githubusercontent.com/34487807/33921059-932a2b1e-dfa8-11e7-8326-7ae91b19c8fa.png)
 
