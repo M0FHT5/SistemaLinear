@@ -106,7 +106,7 @@ As matrizes geradas foram as seguintes:
 
 Não há solução matemática para a equação assinalada na última matriz. Geometricamente representam retas paralelas, onde não há nenhum ponto solução do sistema.
 
-O programa admite números reais, de quantidades diferentes de casas decimais na entrada de valores. Porém o resultado final será truncado, limitando-o a quatro casas decimais após a vírgula. O exemplo a seguir ilustra essa possibilidade:
+O programa admite números reais, de quantidades diferentes de casas decimais na entrada de valores. Porém o resultado final será truncado, limitando-o a até quatro casas decimais após a vírgula. O exemplo a seguir ilustra essa possibilidade:
 
 ![tela5numerosfracionais](https://user-images.githubusercontent.com/34487807/33921059-932a2b1e-dfa8-11e7-8326-7ae91b19c8fa.png)
 
