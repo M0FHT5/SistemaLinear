@@ -65,3 +65,59 @@ Para um sistema de equações lineares S com coeficientes reais, temos uma, e so
 (b) S admite infinítas soluções, ou seja, é possível e indeterminado.
 (c) S não admite solução, ou seja, é impossível.
 ```
+## Funcionamento
+
+O programa foi desenvolvido com base nos padrões de arquitetura MVC(bem simplificado) e está dividido em três partes:
+   - Classe de inicialização do aplicativo.
+   - Classe de controle, onde se encontram os métodos, eventos e funções do programa.
+   - Classe de interface, responsável por criar o Frame e organizar os componentes gráficos, tais como campos, botões, painéis, etc.
+
+Ao executar a aplicação a seguinte tela será apresentada:
+
+![tela1telainicial](https://user-images.githubusercontent.com/34487807/33921054-926e3148-dfa8-11e7-9e5a-dbde07f364a1.png)
+
+No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que a solução do sistema é única. Portanto o sistema é **possível** e **determinado**:
+
+![tela2solucaounica](https://user-images.githubusercontent.com/34487807/33921056-9294c574-dfa8-11e7-8806-7b3989f99de9.png)
+
+O método `imprimeMatriz()` imprimirá no console do framework eclipse as respectivas matrizes durante o processo de escalonamento. Aqui devo frizar que os processos internos do programa, podem em certas circunstâncias alterar a ordem das equações, por exemplo, a equação que possuir o coeficiente de X mais próximo ou igual a 1, se tornará a primeira equação do sistema, o que não interfere no resultado final. O método `imprimeMatriz()` também admite apenas duas casas decimais após a vírgula, realizando o arredondamento, já que não representam os valores reais que fazem parte do processo de resolução do sistema, pois tem apenas propósito ilustrativo. As matrizes geradas no sistema do exemplo anterior são as seguintes:
+
+![matrizsolucaounica](https://user-images.githubusercontent.com/34487807/33921052-9220672e-dfa8-11e7-84e1-ad811e21c9f3.png)
+
+Note que a última matriz representa a forma mais simplificada do processo de escalonamento, e portanto nos fornece a solução final do sistema. Geometricamente representa retas concorrentes, onde há um ponto (x1, y1, z1) de intersecção que é solução única do sistema.
+
+No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que o sistema admite infinitas soluções. Portanto o sistema é **possivel** e **indeterminado**.
+
+![tela3possivelindeterminada](https://user-images.githubusercontent.com/34487807/33921057-92bac2d8-dfa8-11e7-9a0a-0b5eb77b31d3.png)
+
+As matrizes geradas no processo de escalonamento foram as seguintes:
+
+![matrizpossivelind](https://user-images.githubusercontent.com/34487807/33921062-93a85b10-dfa8-11e7-842d-7238bb440c33.png)
+
+A equação assinalada da última matriz, satisfaz a condição que, geometricamente representam retas coincidentes, onde infinitos pontos comuns fazem parte do conjunto solução do sistema.
+
+No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que o sistema não admite solução, ou seja, é **impossível**.
+
+![tela4solucaoimpossivel](https://user-images.githubusercontent.com/34487807/33921058-92fe20fa-dfa8-11e7-974a-ac705b6c0a1a.png)
+
+As matrizes geradas foram as seguintes:
+
+![matrizsolucaoimpossivel](https://user-images.githubusercontent.com/34487807/33921051-91f7c58a-dfa8-11e7-99a1-db3c221fd41a.png)
+
+Não há solução matemática para a equação assinalada na última matriz. Geometricamente representam retas paralelas, onde não há nenhum ponto solução do sistema.
+
+O programa admite números reais, de quantidades diferentes de casas decimais na entrada de valores. Porem o resultado final será truncado, limitando-o a quatro casas decimais após a vírgula. O exemplo a seguir ilustra essa possibilidade:
+
+![tela5numerosfracionais](https://user-images.githubusercontent.com/34487807/33921059-932a2b1e-dfa8-11e7-8326-7ae91b19c8fa.png)
+
+A imagem a seguir representa a prova real do resultado obtido com o programa:
+
+![provareal](https://user-images.githubusercontent.com/34487807/33921053-9246e8fe-dfa8-11e7-95d5-d387a70bac23.png)
+
+A seguir temos as matrizes geradas:
+
+![matriznumerosfracionais](https://user-images.githubusercontent.com/34487807/33921061-93801d4e-dfa8-11e7-87dd-6b72326ffef2.png)
+
+O programa possui alguns tratamentos de erros e impede que valores inválidos sejam processados(Ex.: Letras, campos vazios, etc...). Também lançará uma mensagem de erro, caso todos os coeficientes de um dos tipos das variáveis `(X,Y,Z)` forem nulos, ou seja iguais a zero. Exemplo de mensagem de erro:
+
+![tela6dadosinvalidos](https://user-images.githubusercontent.com/34487807/33921060-9358d8a6-dfa8-11e7-90f4-6400ae5619bb.png)
