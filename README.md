@@ -90,6 +90,8 @@ Ao executar a aplicação a seguinte tela será apresentada:
 
 ![tela1telainicial](https://user-images.githubusercontent.com/34487807/33921054-926e3148-dfa8-11e7-9e5a-dbde07f364a1.png)
 
+#### 1.0 Sistema Possível e Determinado
+
 No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que a solução do sistema é única. Portanto o sistema é **possível** e **determinado**:
 
 ![tela2solucaounica](https://user-images.githubusercontent.com/34487807/33921056-9294c574-dfa8-11e7-8806-7b3989f99de9.png)
@@ -99,6 +101,8 @@ O método `imprimeMatriz()` imprimirá no console do framework eclipse as respec
 ![matrizsolucaounica](https://user-images.githubusercontent.com/34487807/33921052-9220672e-dfa8-11e7-84e1-ad811e21c9f3.png)
 
 Note que a última matriz representa a forma mais simplificada do processo de escalonamento, e portanto nos fornece a solução final do sistema. Geometricamente representam retas concorrentes, onde há um ponto (x1, y2, z3) de intersecção que é solução única do sistema.
+
+#### 2.0 Sistema Possível e Indeterminado
 
 No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que o sistema admite infinitas soluções. Portanto o sistema é **possivel** e **indeterminado**.
 
@@ -110,6 +114,8 @@ As matrizes geradas no processo de escalonamento foram as seguintes:
 
 A equação assinalada da última matriz, satisfaz a condição que, geometricamente representam retas coincidentes, onde infinitos pontos comuns fazem parte do conjunto solução do sistema.
 
+#### 3.0 Sistema Impossível
+
 No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que o sistema não admite solução, ou seja, é **impossível**.
 
 ![tela4solucaoimpossivel](https://user-images.githubusercontent.com/34487807/33921058-92fe20fa-dfa8-11e7-974a-ac705b6c0a1a.png)
@@ -119,6 +125,8 @@ As matrizes geradas foram as seguintes:
 ![matrizsolucaoimpossivel](https://user-images.githubusercontent.com/34487807/33921051-91f7c58a-dfa8-11e7-99a1-db3c221fd41a.png)
 
 Não há solução matemática para a equação assinalada na última matriz. Geometricamente representam retas paralelas, onde não há nenhum ponto solução do sistema.
+
+#### Notas
 
 O programa admite números reais, de quantidades diferentes de casas decimais na entrada de valores. Porém o resultado final será truncado, limitando-o a até quatro casas decimais após a vírgula. O exemplo a seguir ilustra essa possibilidade:
 
