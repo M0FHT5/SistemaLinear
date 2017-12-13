@@ -1,5 +1,9 @@
 # SistemaLinear
-Sistema de Equações Lineares - System of Linear Equations
+Sistema de Equações Lineares
+
+System of Linear Equations
+
+Método de Eliminação de Gauss
 
 Link para download: 
 https://github.com/M0FHT5/SistemaLinear.git
