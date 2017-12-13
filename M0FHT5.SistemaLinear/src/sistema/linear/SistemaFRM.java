@@ -69,7 +69,7 @@ public class SistemaFRM extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblInsiraOsValores = new JLabel("Informe os valores dos coeficientes das equações:");
+		JLabel lblInsiraOsValores = new JLabel("Informe os valores dos coeficientes e termos independentes das equações:");
 		lblInsiraOsValores.setBounds(10, 11, 460, 20);
 		contentPane.add(lblInsiraOsValores);
 
