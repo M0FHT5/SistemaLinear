@@ -1,21 +1,19 @@
 # SistemaLinear
 Sistema de Equações Lineares
 
-System of Linear Equations
-
 Método de Eliminação de Gauss
 
 Link para download: 
 https://github.com/M0FHT5/SistemaLinear.git
 ---
-## Autor
+## 1.Autor
 Wellington Santos
 
 Todos os bugs e fixes podem ser enviados para wss.m0fht5@gmail.com
 
 Bubs/Fixes reportados serão submetidos a correção.
 
-## Descrição
+## 2.Descrição
 O objetivo do programa é encontrar o conjunto solução de um determinado sistema de equações lineares, formado por três equações compostas por três coeficientes, três variáveis e um termo independente cada. O método utilizado para a resolução do sistema, é o método de eliminação de Gauss, que consiste em seguir os seguintes passos:
 ```
 (a) Escreve-se a matriz aumentada do sistema.
@@ -79,7 +77,7 @@ Para um sistema de equações lineares S com coeficientes reais, temos uma, e so
 (b) S admite infinítas soluções, ou seja, é possível e indeterminado.
 (c) S não admite solução, ou seja, é impossível.
 ```
-## Funcionamento
+## 3.Funcionamento
 
 O programa foi desenvolvido com base nos padrões de arquitetura MVC(bem simplificado) e está dividido em três partes:
    - Classe de inicialização do aplicativo.
@@ -90,7 +88,7 @@ Ao executar a aplicação a seguinte tela será apresentada:
 
 ![tela1telainicial](https://user-images.githubusercontent.com/34487807/33921054-926e3148-dfa8-11e7-9e5a-dbde07f364a1.png)
 
-#### 1.0 Sistema Possível e Determinado
+#### 3.1 Sistema Possível e Determinado
 
 No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que a solução do sistema é única. Portanto o sistema é **possível** e **determinado**:
 
@@ -102,7 +100,7 @@ O método `imprimeMatriz()` imprimirá no console do framework eclipse as respec
 
 Note que a última matriz representa a forma mais simplificada do processo de escalonamento, e portanto nos fornece a solução final do sistema. Geometricamente representam retas concorrentes, onde há um ponto (x1, y2, z3) de intersecção que é solução única do sistema.
 
-#### 2.0 Sistema Possível e Indeterminado
+#### 3.2 Sistema Possível e Indeterminado
 
 No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que o sistema admite infinitas soluções. Portanto o sistema é **possivel** e **indeterminado**.
 
@@ -114,7 +112,7 @@ As matrizes geradas no processo de escalonamento foram as seguintes:
 
 A equação assinalada da última matriz, satisfaz a condição que, geometricamente representam retas coincidentes, onde infinitos pontos comuns fazem parte do conjunto solução do sistema.
 
-#### 3.0 Sistema Impossível
+#### 3.3 Sistema Impossível
 
 No exemplo a seguir, os campos foram preenchidos com valores, de tal forma, que o sistema não admite solução, ou seja, é **impossível**.
 
@@ -126,7 +124,7 @@ As matrizes geradas foram as seguintes:
 
 Não há solução matemática para a equação assinalada na última matriz. Geometricamente representam retas paralelas, onde não há nenhum ponto solução do sistema.
 
-#### Notas
+#### 3.4 Notas
 
 O programa admite números reais, de quantidades diferentes de casas decimais na entrada de valores. Porém o resultado final será truncado, limitando-o a até quatro casas decimais após a vírgula. O exemplo a seguir ilustra essa possibilidade:
 
