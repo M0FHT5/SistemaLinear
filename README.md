@@ -1,4 +1,4 @@
-# SistemaLinear
+# Sistema Linear
 Sistema de Equações Lineares
 
 Método de Eliminação de Gauss
